@@ -1,0 +1,106 @@
+  .header{
+        display: flex;
+        align-items: center;
+        gap:20px
+    }
+    .header h1{
+        flex: 1;
+        margin:0;
+    }
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size:34px;
+        text-align: center;
+        color:darkred;
+        background:linear-gradient();
+        padding:30px;
+        border-radius: 15px;
+        box-shadow: 1px 16px 16px ;
+        letter-spacing: 1px;
+        
+    }
+    .header img{
+        width:120px;
+        height:150px;
+        object-fit:contain;
+    }
+     .navbar {
+            display: flex;
+           
+            align-items: center;
+            background-color: #222;
+            padding: 15px;
+        }
+
+        
+        .navbar a {
+            color: white;
+    
+            padding: 12px ;
+            font-size: 18px;
+            border-radius: 5px;
+            
+        }
+
+       
+        .navbar a:hover {
+            background-color: #04AA6D;
+            color: red;
+        }
+
+        
+
+         .navbar a {
+                width: 80%;
+                text-align: center;
+            }
+    .main{
+        display: flex;
+        align-items:self-start;
+        justify-content: center;
+        gap: 30px;
+        margin:30px;
+    } 
+    .welcome{
+        flex:13;
+        margin:10px 20px;
+        background:linear-gradient();
+        border-radius:20px;
+        color:black;
+        background-color:yellow;
+        font-size: large;
+        height:250px;
+        width:600px;
+        box-shadow:0 5px 15px;
+    }
+    .main img{
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px;
+    }
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    margin-top: 40px;
+    border-top: 3px solid darkred;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ff5555;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}

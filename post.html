@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post Resource</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #eaf2ff;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>📚 ResourceHub</h2>
+    <h3>Post a Resource</h3>
+
+    <form>
+        <input type="text" placeholder="Resource Title" required>
+        <input type="text" placeholder="Subject" required>
+
+        <select required>
+            <option value="">Select Resource Type</option>
+            <option>Notes</option>
+            <option>Books</option>
+            <option>Question Papers</option>
+            <option>Assignments</option>
+        </select>
+
+        <textarea placeholder="Description"></textarea>
+        <input type="file">
+        <button type="submit">Post Resource</button>
+    </form>
+</div>
+
+</body>
+</html>

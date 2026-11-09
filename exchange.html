@@ -1,0 +1,196 @@
+<!-- <!DOCTYPE html><html>
+<head>
+    <title>Resource Exchange</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #eaf2ff;
+            text-align: center;
+        }
+        .box {
+            background: white;
+            width: 300px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        a, button {
+            display: block;
+            margin: 12px;
+            padding: 10px;
+            background: blue;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>📚 ResourceHub</h2>
+        <h3>Resource Exchange</h3>
+        <p>Share and exchange academic resources with students.</p>    <a href="browse.html">Browse Resources</a>
+    <a href="post.html">Share a Resource</a>
+
+    <h4>Available Resources</h4>
+    <p>📘 Notes</p>
+    <p>📚 Books</p>
+    <p>📝 Question Papers</p>
+    <p>💻 Coding Materials</p>
+</div>
+
+</body>
+</html> -->
+<!DOCTYPE html><html>
+<head>
+    <title>Resource Exchange - ResourceHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f1f5ff;
+            color: #222;
+        }    header {
+        background: #173b8f;
+        color: white;
+        padding: 18px;
+        text-align: center;
+    }
+
+    nav {
+        background: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #173b8f;
+        margin: 12px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 85%;
+        margin: 25px auto;
+    }
+
+    .cards {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        flex: 1;
+        min-width: 180px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px #ccc;
+    }
+
+    .card h3 {
+        color: #173b8f;
+    }
+
+    .button {
+        display: inline-block;
+        background: #173b8f;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 8px;
+    }
+
+    form {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+
+    input, select, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    button {
+        background: #173b8f;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: #173b8f;
+        color: white;
+        margin-top: 30px;
+    }
+</style>
+
+</head><body><header>
+    <h1>📚 ResourceHub</h1>
+    <p>Share Knowledge. Exchange Resources. Learn Together.</p>
+</header><nav>
+    <a href="home.html">Home</a>
+    <a href="browse.html">Browse</a>
+    <a href="post.html">Post Resource</a>
+    <a href="exchange.html">Exchange</a>
+</nav><div class="container"><h2>Academic Resource Exchange</h2>
+<p>Exchange study materials with fellow students and reduce the cost of learning.</p>
+
+<div class="cards">
+    <div class="card">
+        <h3>📘 Notes Exchange</h3>
+        <p>Share your notes and request notes from other students.</p>
+        <a class="button" href="browse.html">Explore Notes</a>
+    </div>
+
+    <div class="card">
+        <h3>📚 Book Exchange</h3>
+        <p>Give away or exchange books you no longer need.</p>
+        <a class="button" href="browse.html">Find Books</a>
+    </div>
+
+    <div class="card">
+        <h3>📝 Paper Exchange</h3>
+        <p>Share previous-year question papers and practice materials.</p>
+        <a class="button" href="browse.html">View Papers</a>
+    </div>
+</div>
+
+<form action="#" method="post">
+    <h2>Request a Resource</h2>
+
+    <label>Your Name</label>
+    <input type="text" placeholder="Enter your name" required>
+
+    <label>Resource Needed</label>
+    <input type="text" placeholder="e.g. Python notes" required>
+
+    <label>Resource Type</label>
+    <select required>
+        <option value="">Select type</option>
+        <option>Notes</option>
+        <option>Books</option>
+        <option>Question Papers</option>
+        <option>Coding Materials</option>
+    </select>
+
+    <label>Additional Details</label>
+    <textarea rows="3" placeholder="Write your requirements"></textarea>
+
+    <button type="submit">Submit Request</button>
+</form>
+
+</div><footer>
+    <p>© 2026 ResourceHub | Learn and Share Together</p>
+</footer></body>
+</html>

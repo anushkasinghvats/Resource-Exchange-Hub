@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ResourceHub</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eaf2ff;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            width: 350px;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px lightgray;
+        }
+
+        .logo {
+            background-color: #2563eb;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin: auto;
+            line-height: 60px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #1e3a8a;
+        }
+
+        h2 {
+            color: #2563eb;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid lightgray;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 95%;
+            padding: 12px;
+            margin-top: 10px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .tagline {
+            color: gray;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">R</div>
+
+        <h1>ResourceHub</h1>
+
+        <p class="tagline">
+            Learn Together. Share Together. Grow Together.
+        </p>
+
+        <hr>
+
+        <h2>Login</h2>
+
+        <form>
+            <input type="email" placeholder="Student Email" required>
+            <br>
+
+            <input type="password" placeholder="Password" required>
+            <br>
+
+            <button type="button">Login</button>
+        </form>
+
+        <p>Don't have an account? <a href="#signup">Sign Up</a></p>
+
+        <hr>
+
+        <h2 id="signup">Create Account</h2>
+
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <br>
+
+            <input type="email" placeholder="Student Email" required>
+            <br>
+
+            <input type="text" placeholder="University Name" required>
+            <br>
+
+            <input type="password" placeholder="Create Password" required>
+            <br>
+
+            <input type="password" placeholder="Confirm Password" required>
+            <br>
+
+            <button type="button">Create Account</button>
+        </form>
+
+        <p class="tagline">
+            Student Academic Resource Exchange System
+        </p>
+
+    </div>
+
+</body>
+</html>
